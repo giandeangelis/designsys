@@ -171,3 +171,37 @@ header h1 {
 #source-code-pro {
     font-family: "Source Code Pro", sans-serif;
 }
+
+/* Text styles section */
+
+.text-styles .grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    text-align: center;
+}
+
+.t-style {
+    position: relative;
+    padding-bottom: 75%;
+    background-color: hsla(214, 82%, 51%, 0.1);
+}
+
+.t-style .text {
+    width: 100%;
+    height: 60%;
+    margin: 10% 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t-style h2 {
+    margin-bottom: 0;
+}
+
+.text-styles li {
+    line-height: 1.3;
+}
