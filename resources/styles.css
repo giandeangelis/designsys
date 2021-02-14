@@ -12,6 +12,10 @@ html {
     font-size: 16px;
 }
 
+body {
+    background-color: #eae9f0;
+}
+
 h1, h2, h3, p {
     font-family: Roboto, sans-serif;
 }
@@ -24,6 +28,7 @@ h1 {
 h2 {
     font-weight: 500;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -39,4 +44,94 @@ p.quote {
 p.code {
     font-family: "Source Code Pro", monospace;
     font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    padding: 5%;
+    border-bottom: 2px solid hsla(213, 5%, 39%, 0.5);
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+}
+
+/* Header */
+
+header {
+    height: 20%;
+    background-color: #0e0636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #FFF;
+    text-align: center;
+}
+
+/* Colors section */
+
+.colors .flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-box {
+    width: 20%;
+    min-width: 150px;
+}
+
+.color-box .sample-color {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    border: 1px solid hsla(0, 0%, 0%, 0.8);
+}
+
+.color-box .color-codes {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    margin: 10% 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fresh-blue .sample-color {
+    background-color: #1a73e8;
+}
+
+.fresh-blue .color-codes {
+    color: rgb(214, 214, 214);
+}
+
+.road-grey .sample-color {
+    background-color: #5f6368;
+}
+
+.road-grey .color-codes {
+    color: rgb(214, 214, 214);
+}
+
+.navy-blue .sample-color {
+    background-color: #0e0636;
+}
+
+.navy-blue .color-codes {
+    color: rgb(214, 214, 214);
+}
+
+.sky-grey .sample-color {
+    background-color: #eae9f0;
+}
+
+.color-name {
+    padding: 5% 0;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(234,233,240,1) 50%, rgba(255,255,255,0.1) 100%);
 }
