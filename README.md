@@ -9,5 +9,4 @@ Present a list of fonts, colors and other styles as a model for a website.
 - CSS 3
 
 ## STATUS
-In progress
-- HTML structure completed
+Desktop version completed (responsive version not planned, as it is out of scope of this exercise).
