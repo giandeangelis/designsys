@@ -10,3 +10,4 @@ Present a list of fonts, colors and other styles as a model for a website.
 
 ## STATUS
 In progress
+- HTML structure completed

@@ -1,0 +1,42 @@
+/* Universal styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, p {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+p.quote {
+    font-family: Oswald, sans-serif;
+    font-weight: 200;
+}
+
+p.code {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 400;
+}
