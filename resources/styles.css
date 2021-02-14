@@ -1,4 +1,5 @@
 /* Universal styles */
+
 * {
     box-sizing: border-box;
 }
@@ -134,4 +135,39 @@ header h1 {
     text-align: center;
     text-transform: uppercase;
     background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(234,233,240,1) 50%, rgba(255,255,255,0.1) 100%);
+}
+
+/* Fonts section */
+
+.font {
+    border-bottom: 1px solid hsla(213, 5%, 39%, 0.5);
+    margin-bottom: 2.5%;
+}
+
+.font h3 {
+    margin-bottom: 1%;
+}
+
+#roboto300 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+#roboto300i {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#roboto500 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+#oswald {
+    font-family: Oswald, sans-serif;
+}
+
+#source-code-pro {
+    font-family: "Source Code Pro", sans-serif;
 }
